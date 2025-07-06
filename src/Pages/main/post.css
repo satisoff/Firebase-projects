@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&family=Roboto+Mono:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro&family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Quicksand&family=Nunito&family=Karla&display=swap");
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.post-class {
+    box-shadow: 0 0 10px hsl(270, 50%, 50%);
+    background-color: hsl(270, 50%, 85%);
+    display: grid;
+    grid-template-rows: 7fr 42fr 6fr;
+    font-size: 1rem;
+    min-height: 8rem;
+    max-height: 30rem;
+    max-width: 40%;
+    min-width: 30%;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1.5rem auto;
+}
+
+.desc-class {
+    padding: 0.5rem 1rem;
+    text-align: justify;
+    font-family: Source Sans Pro;
+    background-color: hsl(33, 100%, 94%);
+    color: hsl(182, 25%, 20%);
+    overflow-y: auto;
+}
+
+.title-class {
+    font-size: 1.8rem;
+    font-family: poppins;
+    border-bottom: 1px solid;
+    background-color: hsl(33, 100%, 94%);
+    color: hsl(240, 67%, 24%);
+}
+
+.user-class {
+    font-size: 1.4rem;
+    justify-self: flex-end;
+    font-family: Fredoka;
+    text-decoration: underline;
+    text-shadow: 0 0 10px white;
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+}
+
+.like-box {
+    display: flex;
+    /* align-items: center; */
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.like-btn {
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/30/07/48/heart-5614865_640.png");
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 2rem;
+    cursor: pointer;
+}
+.dislike-btn {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/023/465/813/non_2x/heart-dark-mode-glyph-ui-icon-like-button-expressing-love-reaction-user-interface-design-white-silhouette-symbol-on-black-space-solid-pictogram-for-web-mobile-isolated-illustration-vector.jpg");
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 2rem;
+    cursor: pointer;
+}
